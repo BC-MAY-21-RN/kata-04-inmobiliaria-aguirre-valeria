@@ -2,10 +2,10 @@ import React from 'react';
 import {View, Text, StyleSheet } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
-
 const Card = () => {
   return (
   <View>
+    <Image src=""></Image>
     <Text style={styles.title}>Título</Text>
     <View></View>
     <FontAwesomeIcon icon='fa-location-dot'/>
