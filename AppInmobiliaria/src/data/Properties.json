@@ -1,0 +1,50 @@
+{
+    "Properties": [
+        {
+            "id": 1,
+            "property": "The Willows",
+            "address":"3517 W. Gray St. Utico",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": "230 ft2",
+            "price": "$440/m"
+        },
+        {
+            "id": 2,
+            "property": "Orchard House",
+            "address":"3517 W. Gray St. Utico",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": "230 ft2",
+            "price": "$440/m"
+        },
+        {
+            "id": 3,
+            "property": "Orchard House",
+            "address":"3517 W. Gray St. Utico",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": "230 ft2",
+            "price": "$440/m"
+        },
+        {
+            "id": 4,
+            "property": "The Willows",
+            "address":"3517 W. Gray St. Utico",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": "230 ft2",
+            "price": "$440/m"
+        },
+        {
+            "id": 5,
+            "property": "Corner House",
+            "address":"3517 W. Gray St. Utico",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": "230 ft2",
+            "price": "$440/m"
+        }
+    ]
+    
+}
