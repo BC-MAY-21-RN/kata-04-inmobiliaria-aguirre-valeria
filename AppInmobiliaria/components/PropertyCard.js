@@ -1,27 +1,24 @@
-import React from 'react';
-import {View, Text, StyleSheet } from 'react-native';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import Properties from '../src/DataProperties/Properties.json';
+import React from 'react'
+import {View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 
-
-const Card = () => {
+export default PropertyCard = ( {item} ) => {
   return (
-  <View>
-    <Image src=""></Image>
-    <Text style={styles.title}>Título</Text>
+  <TouchableOpacity>
+    <Text style={styles.title}>{item.property}</Text>
     <View></View>
     <FontAwesomeIcon icon='fa-location-dot'/>
-    <Text style={styles.location}>Location</Text>
+    <Text style={styles.location}>{item.address}</Text>
     <View style={styles.container}>
       <FontAwesomeIcon icon='fa-bed'/>
-      <Text>3</Text>
+      <Text>{item.bedrooms}</Text>
       <FontAwesomeIcon icon='fa-toilet'/>
-      <Text>4</Text>
+      <Text>{item.bathrooms}</Text>
       <FontAwesomeIcon icon='fa-ruler-combined'/>
-      <Text>200</Text>
+      <Text>{item.size}</Text>
     </View>
-    <Text>$400/m</Text>
-  </View>
+    <Text>{item.price}</Text>
+  </TouchableOpacity>
   );
 };
 
@@ -38,5 +35,3 @@ const styles = StyleSheet.create({
   }
 
 });
-
-export default Card;

@@ -23,11 +23,11 @@ import { faLocationDot, faBed, faToilet, faRulerCombined } from '@fortawesome/fr
 
 library.add(faLocationDot, faBed, faToilet, faRulerCombined)
 
-import Card from './components/PropertyCard';
+import CardsMenu from './components/CardsMenu'
 
 const App = () => {
   return (
-    <Card/>
+    <CardsMenu/>
     
   );
 };
