@@ -19,9 +19,9 @@ import {
 // } from 'react-native/Libraries/NewAppScreen';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLocationDot, faBed, faToilet, faRulerCombined } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faBed, faToilet, faRulerCombined, faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLocationDot, faBed, faToilet, faRulerCombined)
+library.add(faLocationDot, faBed, faToilet, faRulerCombined, faHeart, faStar)
 
 import CardsMenu from './src/components/CardsMenu'
 

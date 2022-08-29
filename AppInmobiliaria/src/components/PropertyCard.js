@@ -8,6 +8,10 @@ export default PropertyCard = ( {item} ) => {
   <TouchableOpacity>
     <View style={styles.container}>
       <Image source={{uri: item.image}} alt={item.title} style={styles.image}></Image>
+      <View style={styles.containerStar}>
+      <FontAwesomeIcon icon='fa-star' size={12} style={styles.iconStar}/>
+      <Text style={styles.points}>4.7</Text>
+      </View>
       <View>
         <Text style={styles.title}>{item.property}</Text>
         <View style={styles.containerRow}>
@@ -24,10 +28,11 @@ export default PropertyCard = ( {item} ) => {
         </View>
         <Text style={styles.price}>{item.price}</Text>
       </View>
-      <View>
+      <View style={styles.containerHeart}>
+        <FontAwesomeIcon icon='fa-heart' size={14} style={styles.iconHeart}/>
+      </View>
         
       </View>
-    </View>
   </TouchableOpacity>
   );
 };
@@ -77,6 +82,36 @@ const styles = StyleSheet.create({
     color: '#000000',
     fontSize: 20,
     marginTop: 6
+  },
+  containerStar: {
+    flexDirection: 'row',
+    position: 'absolute',
+    backgroundColor: '#FBEDB7',
+    borderRadius: 12,
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    top: 105,
+    left: 50,
+  },
+  iconStar: {
+    color: '#EEBA00',
+  },
+  points: {
+    marginLeft: 5,
+    fontSize: 12,
+    fontWeight: 'bold'
+  },
+
+  containerHeart: {
+    alignSelf: "flex-end",
+    backgroundColor: '#00B074',
+    borderRadius: 150 / 2,
+    padding: 7,
+    top: 10,
+    left: -20,
+  },
+  iconHeart: {
+    color: '#FFFFFF',
   }
 
 });
