@@ -8,7 +8,8 @@
             "bathrooms": 2,
             "size": "230 ft2",
             "price": "$440/m",
-            "image": "https://images.pexels.com/photos/11703477/pexels-photo-11703477.jpeg"
+            "image": "https://images.pexels.com/photos/11703477/pexels-photo-11703477.jpeg",
+            "rating": 4.7
         },
         {
             "id": 2,
@@ -18,7 +19,8 @@
             "bathrooms": 2,
             "size": "230 ft2",
             "price": "$440/m",
-            "image": "https://images.pexels.com/photos/12375022/pexels-photo-12375022.jpeg"
+            "image": "https://images.pexels.com/photos/12375022/pexels-photo-12375022.jpeg",
+            "rating": 4.7
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@
             "bathrooms": 2,
             "size": "230 ft2",
             "price": "$440/m",
-            "image": "https://images.pexels.com/photos/8349787/pexels-photo-8349787.jpeg"
+            "image": "https://images.pexels.com/photos/8349787/pexels-photo-8349787.jpeg",
+            "rating": 4.7
         },
         {
             "id": 4,
@@ -38,7 +41,8 @@
             "bathrooms": 2,
             "size": "230 ft2",
             "price": "$440/m",
-            "image": "https://images.pexels.com/photos/11703477/pexels-photo-11703477.jpeg"
+            "image": "https://images.pexels.com/photos/11703477/pexels-photo-11703477.jpeg",
+            "rating": 4.7
         },
         {
             "id": 5,
@@ -48,7 +52,8 @@
             "bathrooms": 2,
             "size": "230 ft2",
             "price": "$440/m",
-            "image": "https://images.pexels.com/photos/12375022/pexels-photo-12375022.jpeg"
+            "image": "https://images.pexels.com/photos/12375022/pexels-photo-12375022.jpeg",
+            "rating": 4.7
         }
     ]
     

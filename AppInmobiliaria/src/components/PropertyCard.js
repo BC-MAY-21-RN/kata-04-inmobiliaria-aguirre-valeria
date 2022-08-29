@@ -10,7 +10,7 @@ export default PropertyCard = ( {item} ) => {
       <Image source={{uri: item.image}} alt={item.title} style={styles.image}></Image>
       <View style={styles.containerStar}>
       <FontAwesomeIcon icon='fa-star' size={12} style={styles.iconStar}/>
-      <Text style={styles.points}>4.7</Text>
+      <Text style={styles.points}>{item.rating}</Text>
       </View>
       <View>
         <Text style={styles.title}>{item.property}</Text>
@@ -34,8 +34,8 @@ export default PropertyCard = ( {item} ) => {
         
       </View>
   </TouchableOpacity>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -114,4 +114,4 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
   }
 
-});
+})
