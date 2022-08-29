@@ -7,7 +7,7 @@ import PropertyCard from './PropertyCard'
 export default CardsMenu = () => {
 
   return (
-    <FlatList style={backgroundColor='#FFFFFF'}
+    <FlatList
       vertical
       data={Properties["Properties"]}
       keyExtractor={item => item.id}
