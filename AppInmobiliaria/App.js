@@ -23,7 +23,7 @@ import { faLocationDot, faBed, faToilet, faRulerCombined } from '@fortawesome/fr
 
 library.add(faLocationDot, faBed, faToilet, faRulerCombined)
 
-import CardsMenu from './components/CardsMenu'
+import CardsMenu from './src/components/CardsMenu'
 
 const App = () => {
   return (

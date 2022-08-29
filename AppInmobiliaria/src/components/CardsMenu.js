@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { FlatList } from 'react-native'
-import Properties from '../src/data/Properties.json'
+import { FlatList, StyleSheet } from 'react-native'
+import Properties from '../data/Properties.json'
 import PropertyCard from './PropertyCard'
 
 
 export default CardsMenu = () => {
 
   return (
-    <FlatList
+    <FlatList style={styles.list}
       vertical
       data={Properties["Properties"]}
       keyExtractor={item => item.id}
@@ -15,3 +15,9 @@ export default CardsMenu = () => {
     />
   );
 };
+
+const styles = StyleSheet.create({
+  list: {
+    backgroundColor: '#000000'
+  },
+})
